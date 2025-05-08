@@ -1,0 +1,35 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* 
+body {
+  @apply font-sans bg-echo-light dark:bg-echo-dark transition-colors duration-300;
+} */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* ::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-echo-card;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-echo-primary rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-purple-600;
+} */
+
+/* Gradient text */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(90deg, #6E56CF 0%, #9B8AFF 100%);
+}

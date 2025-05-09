@@ -1,7 +1,7 @@
 
 import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { useAuth } from '../context/Authcontext'
+import { useAuth } from '../context/AuthContext'
 import { ArrowPathIcon } from '@heroicons/react/24/outline'
 import GoogleIcon from '../assets/GoogleIcon'
 import { toastSuccessNotify, toastErrorNotify } from '../helpers/ToastNotify'
